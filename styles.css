@@ -1,9 +1,11 @@
-body,h1 {
-    color: rgb(133, 56, 30); font-family: cursive;
-    background-color: rgb(250, 246, 233);
+body,h1,h2,ul {
+    color: rgb(54, 25, 16); font-family: cursive;
+    background-color: rgb(250, 219, 210);
 }
 
-h2,ul {
-    color:rgb(182, 133, 133); 
+
+#subtitle {
+    color: black;
+    font-size: medium;
 }
 
