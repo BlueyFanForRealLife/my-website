@@ -22,6 +22,9 @@ header {
 #nav_menu ul ul {
         display: none;
     }
+a:link {
+        text-decoration: none;
+    }
 
 body {
     
@@ -44,12 +47,14 @@ h2 {
         
     }
     img {
+        width: 50%;
+        min-width: 25%;
         clear: both;
         display: block;
         margin: auto auto;
         padding: 0 1em;
     }
-    width: 600px;
+    width: 40%;
     float: left;
     padding: 2em 1em 2em 0;
     margin-left: 5%;
@@ -59,11 +64,13 @@ h2 {
         text-align: center;
     }
     img {
+        width: 100%;
+        min-width: 50%;
         display: block;
         margin: auto auto;
 
     }
-    width: 600px;
+    width: 40%;
     float: right;
     padding: 2em 1em 2em 0;
     margin-right: 5%;
@@ -73,4 +80,10 @@ h2 {
 footer {
     clear: both;
    text-align: center;
+}
+@media only screen and (max-width: 630px) {
+    #nav_menu ul li {
+        float: none;
+        width: 100%;
+    }
 }

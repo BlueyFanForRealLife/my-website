@@ -2,7 +2,7 @@ html {
     background-image: url(pictures-of-people/prettyClouds.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 250%;
+    background-size:cover;
 }
 #nav_menu ul {
     list-style-type: none;
@@ -18,6 +18,9 @@ html {
 #nav_menu ul ul {
     display: none;
 }
+a:link {
+    text-decoration: none;
+}
 body{
     h1 {
         font-size: xx-large;
@@ -27,18 +30,22 @@ body{
    font-size: medium;
 }
 #before {
+    width: 25%;
     display: block;
     margin: auto auto;
 }
 #ultrasound {
+    width: 25%;
     display: block;
     margin: auto auto;
 }
 #sturgis {
+    width: 25%;
     display: block;
     margin: auto auto;
 }
 #livi {
+    width: 25%;
     display: block;
     margin: auto auto;
 }
@@ -47,4 +54,9 @@ footer {
    text-align: center;
 }
 
-
+@media only screen and (max-width: 630px) {
+    #nav_menu ul li {
+        float: none;
+        width: 100%;
+    }
+}

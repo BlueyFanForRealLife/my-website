@@ -7,7 +7,7 @@ html {
 body,h1,h2,ul {
     color: rgb(54, 25, 16); font-family: cursive;    
 }
-#main {
+#mainline {
     font-size: large;
     text-align: center;
 }
@@ -29,24 +29,32 @@ img {
     margin: auto auto;
 }
 #nav_menu ul {
+
     list-style-type: none;
     padding: 1em 1em 1em 0;
     text-align: center;
+    
 }
 #nav_menu ul li { 
     font-size: x-large;
     float:inline-start;
-    display: block;
+    display: inline;
     width: 25%;
 }
 #nav_menu ul ul {
     display: none;
 }
-#nav_menu ul ul {
-    display: none;
+a:link {
+    text-decoration: none;
 }
 
 footer {
     clear: both;
    text-align: center;
+}
+@media only screen and (max-width: 630px) {
+    #nav_menu ul li {
+        float: none;
+        width: 100%;
+    }
 }
