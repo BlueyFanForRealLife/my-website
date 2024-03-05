@@ -4,23 +4,47 @@ html {
     background-repeat: no-repeat;
     background-size: 250%;
 }
+#nav_menu ul {
+    list-style-type: none;
+    padding: 1em 1em 1em 0;
+    text-align: center;
+}
+#nav_menu ul li { 
+    font-size: x-large;
+    float:inline-start;
+    display: block;
+    width: 25%;
+}
+#nav_menu ul ul {
+    display: none;
+}
 body{
     h1 {
         font-size: xx-large;
-        margin-left: 45%;
+        margin-left: 32%;
     }
    font-family: cursive;
    font-size: medium;
 }
 #before {
-    margin-left: 40%;
+    display: block;
+    margin: auto auto;
 }
 #ultrasound {
-    margin-left: 38%;
+    display: block;
+    margin: auto auto;
 }
 #sturgis {
-    margin-left: 40%;
+    display: block;
+    margin: auto auto;
 }
 #livi {
-    margin-left: 35%;
+    display: block;
+    margin: auto auto;
 }
+footer {
+    clear: both;
+   text-align: center;
+}
+
+

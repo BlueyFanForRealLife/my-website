@@ -9,44 +9,44 @@ body,h1,h2,ul {
 }
 #main {
     font-size: large;
-    margin-left: 2%;
+    text-align: center;
 }
 #header {  
  h1 {
     font-size: xx-large;
-    margin-left: 30%;
+    text-align: center;
  }
  h2 {
     font-size: large;
-    margin-left: 32%;
- }
- h3 {
-    font-size: medium;
-    margin-left: 30%;
+    padding-top: 2%;
+    margin-left: 25%;
+    clear: both;
  }
 }
 img {
     border: 2em double black;
-    margin-left: 38%;
+    display: block;
+    margin: auto auto;
 }
-#About {
-    float: left;
-    width: 250px;
-    margin-left: 10%;
+#nav_menu ul {
+    list-style-type: none;
+    padding: 1em 1em 1em 0;
+    text-align: center;
 }
-#zoo {
-    float: left;
-    width: 250px; 
-    margin-left: 15%;
+#nav_menu ul li { 
+    font-size: x-large;
+    float:inline-start;
+    display: block;
+    width: 25%;
 }
-#rv {
-    float:  right;
-    width: 250px; 
-   margin-right: 10%;
+#nav_menu ul ul {
+    display: none;
 }
-a:hover{
-    font-size: 150%;
+#nav_menu ul ul {
+    display: none;
 }
+
 footer {
     clear: both;
+   text-align: center;
 }

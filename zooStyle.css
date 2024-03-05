@@ -5,16 +5,26 @@ html {
     background-size: cover;
 }
 header {
-
-    h1 {
-    margin: 2em 11em 2em;
-    }
-    h2{
-        clear: both;
-    }
-    background: img
+    font-family: cursive;
+    text-align: center;
 }
+ #nav_menu ul {
+        list-style-type: none;
+        padding: 1em 1em 1em 0;
+        text-align: center;
+    }
+ #nav_menu ul li { 
+        font-size: x-large;
+        float:inline-start;
+        display: block;
+        width: 25%;
+    }
+#nav_menu ul ul {
+        display: none;
+    }
+
 body {
+    
     color:black; font: 1em sans-serif; font-family: Arial, Helvetica, sans-serif;
 
 section {
@@ -23,40 +33,44 @@ section {
 
 }
 h2 {
-    margin-left: 5em;
-    margin-bottom: 2em;
+    font-family: cursive;
+    clear: both;
+    text-align: left;
     color:rgb(44, 65, 65)
 }
-#zoo {
+#zoos {
     h2 {
-        margin-left: 15%;
-        margin-right: 5%;
+       text-align: center;
         
     }
     img {
-        margin-left: 15%;
-        margin-right: 5%;
+        clear: both;
+        display: block;
+        margin: auto auto;
+        padding: 0 1em;
     }
     width: 600px;
     float: left;
+    padding: 2em 1em 2em 0;
     margin-left: 5%;
 }
 #Trip {
     h2 {
-        margin-top: 4em;
-        margin-right: 2em;
+        text-align: center;
     }
     img {
-        margin-right: 2%;
+        display: block;
+        margin: auto auto;
 
     }
-    
     width: 600px;
     float: right;
+    padding: 2em 1em 2em 0;
     margin-right: 5%;
-    
+    text-align: center;
 }
 }
 footer {
     clear: both;
+   text-align: center;
 }
