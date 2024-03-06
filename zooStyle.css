@@ -8,23 +8,21 @@ header {
     font-family: cursive;
     text-align: center;
 }
- #nav_menu ul {
-        list-style-type: none;
-        padding: 1em 1em 1em 0;
-        text-align: center;
-    }
- #nav_menu ul li { 
-        font-size: x-large;
-        float:inline-start;
-        display: block;
-        width: 25%;
-    }
-#nav_menu ul ul {
-        display: none;
-    }
-a:link {
-        text-decoration: none;
-    }
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 1em;
+}
+li {
+    font-size: x-large;
+    background: none;
+    width: 25%;
+    text-align: center;
+}
+ul ul {
+    display: none;
+}
 
 body {
     

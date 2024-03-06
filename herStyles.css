@@ -3,27 +3,42 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: cursive;
+    
 }
 #nav_menu ul {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
-    padding: 1em 0;
-    text-align: center;
-   
-}
-#nav_menu ul li { 
+    padding: 2%;
+    margin: 2%;
     font-size: x-large;
-    float:inline-start;
-    display: block;
-    width: 23%;
-    margin-left: 1%;
-    margin-right: 1%;
+    width: 90%;
+    justify-content: space-between;
 }
-#nav_menu ul ul {
-    display: none;
+body {
+    text-align: center;
+    h1 {
+        font-size: xx-large;
+        text-align: center;
+        color: rgb(188, 93, 112);
+    }
+    h2 {
+        font-size: x-large;
+        color: purple;
+        border-bottom-style:dashed;
+        border-color: black;
+    }
+    h3 {
+        font-size: medium;
+    }    
 }
-a:link {
-    text-decoration: none;
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
 }
+
 footer {
     clear: both;
    text-align: center;

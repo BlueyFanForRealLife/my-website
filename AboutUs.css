@@ -5,21 +5,13 @@ html {
     background-size:cover;
 }
 #nav_menu ul {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
-    padding: 1em 1em 1em 0;
-    text-align: center;
-}
-#nav_menu ul li { 
+    padding: 2%;
     font-size: x-large;
-    float:inline-start;
-    display: block;
-    width: 25%;
-}
-#nav_menu ul ul {
-    display: none;
-}
-a:link {
-    text-decoration: none;
+    width: 96%;
+    justify-content: space-between;
 }
 body{
     h1 {
@@ -27,7 +19,8 @@ body{
         margin-left: 32%;
     }
    font-family: cursive;
-   font-size: medium;
+   font-size: large;
+   margin: 3%;
 }
 #before {
     width: 25%;
