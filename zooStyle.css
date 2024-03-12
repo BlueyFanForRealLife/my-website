@@ -1,87 +1,105 @@
 html {
-    background-image:url(pictures-of-people/prettySparkles.jpg);
+    background-image: url(pictures-of-people/prettySparkles.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-header {
     font-family: cursive;
-    text-align: center;
 }
+
+h1 {
+    text-align: center;
+    color: #054149;
+    font-weight: bolder;
+}
+
+h2 {
+
+    color: #a52a2a;
+    font-weight: bolder;
+}
+
 ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     padding: 1em;
+    justify-content: space-around;
 }
+
 li {
-    font-size: x-large;
+    font-size: larger;
     background: none;
     width: 25%;
     text-align: center;
+    background-color: #054149;
+    border-radius: 8px;
 }
+
 ul ul {
     display: none;
 }
 
-body {
-    
-    color:black; font: 1em sans-serif; font-family: Arial, Helvetica, sans-serif;
+ul li a {
+    padding: 2em 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 
 section {
-    font-family: cursive; 
-    color: brown;
+    font-family: cursive;
+    color: #a52a2a;
 
 }
-h2 {
-    font-family: cursive;
-    clear: both;
-    text-align: left;
-    color:rgb(44, 65, 65)
-}
+
 #zoos {
-    h2 {
-       text-align: center;
-        
-    }
-    img {
-        width: 50%;
-        min-width: 25%;
-        clear: both;
-        display: block;
-        margin: auto auto;
-        padding: 0 1em;
-    }
+    color: black;
+    text-align: center;
     width: 40%;
     float: left;
     padding: 2em 1em 2em 0;
     margin-left: 5%;
 }
-#Trip {
-    h2 {
-        text-align: center;
-    }
-    img {
-        width: 100%;
-        min-width: 50%;
-        display: block;
-        margin: auto auto;
 
-    }
+#zoos img {
+    width: 75%;
+    min-width: 50%;
+    clear: both;
+    display: block;
+    margin: auto auto;
+
+}
+
+#Trip {
     width: 40%;
     float: right;
     padding: 2em 1em 2em 0;
     margin-right: 5%;
     text-align: center;
+    color: black;
 }
+
+#Trip img {
+    width: 100%;
+    min-width: 75%;
+    display: block;
+    margin: auto auto;
+
 }
+
+/***************** Footer **************/
 footer {
     clear: both;
-   text-align: center;
+    text-align: center;
 }
+
 @media only screen and (max-width: 630px) {
+    #nav_menu ul {
+        flex-direction: column;
+    }
+
     #nav_menu ul li {
-        float: none;
+
         width: 100%;
     }
 }

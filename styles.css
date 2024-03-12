@@ -3,56 +3,82 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-body,ul {
-    color: rgb(54, 25, 16); font-family: cursive;    
-}
-#mainline {
-    font-size: large;
     text-align: center;
+    font-family: cursive;
 }
-#header {  
- h1 {
-    color: blueviolet;
-    font-size: xx-large;
-    text-align: center;
- }
- h2 {
-    font-size: large;
-    padding-top: 2%;
-    margin-left: 25%;
-    clear: both;
- }
+
+#body_ul {
+    color: rgb(54, 25, 16);
+    font-family: cursive;
 }
-img {
+#photos {
+    width: 100%;
+    min-width: 15%;
     display: block;
     margin: auto auto;
 }
+#mainline {
+    font-size: large;
+
+}
+
+/********************* Header ****************/
+#header h1 {
+    color: #8a2be2;
+    font-size: xx-large;
+
+}
+
+#header h2 {
+    font-size: large;
+    padding-top: 2%;
+    clear: both;
+}
+
+/*********************** Main *************************/
+
+
+/******************** Navigation *********************/
 ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     padding: 1em;
+    justify-content: space-between;
 }
+
 li {
-    font-size: x-large;
+    font-size: large;
     background: none;
     width: 25%;
     text-align: center;
-}
-ul ul {
-    display: none;
+    background-color: #8a2be2;
+    border-radius: 8px;
 }
 
+ul li a {
+    padding: 2em 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 
+
+}
+
+/****************** Footer ************/
 footer {
-    
+
     clear: both;
-   text-align: center;
+
 }
+
 @media only screen and (max-width: 630px) {
+    #nav_menu ul {
+        flex-direction: column;
+    }
+
     #nav_menu ul li {
-        float: none;
+
         width: 100%;
     }
 }
