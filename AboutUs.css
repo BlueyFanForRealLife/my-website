@@ -2,54 +2,110 @@ html {
     background-image: url(pictures-of-people/prettyClouds.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    font-family: cursive;
 }
-#nav_menu ul {
+h1 {
+    text-align: center;
+    color: #054149;
+    font-weight: bolder;
+}
+
+/******************** Navigation **************/
+ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    padding: 2%;
-    font-size: x-large;
-    width: 96%;
-    justify-content: space-between;
+    padding: 1em;
+    justify-content: space-around;
 }
-body{
-    h1 {
-        font-size: xx-large;
-        margin-left: 32%;
-    }
-   font-family: cursive;
-   font-size: large;
-   margin: 3%;
+li {
+    font-size: larger;
+    background: none;
+    width: 25%;
+    text-align: center;
+    background-color:#054149;
+    border-radius: 8px;
+}
+ul ul {
+    display: none;
+}
+
+ul li a {
+    padding: 2em 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;  
+}
+/********* Body *************/
+main {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: 
+        "befor  datng   datng"
+        "preggr preggr  ultra"
+        "sturg  rdtrp   rdtrp"
+        "bakhm  bakhm   livia";
+    grid-gap: 3%;
+}
+p {
+    font-size: large;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 #before {
-    width: 25%;
+    grid-area: befor;
+    display: block;
+    margin: auto auto;
+}
+#dating {
+    grid-area: datng;
     display: block;
     margin: auto auto;
 }
 #ultrasound {
-    width: 25%;
+    grid-area: ultra;
+    display: block;
+    margin: auto auto;
+}
+#driving {
+    grid-area: preggr;
     display: block;
     margin: auto auto;
 }
 #sturgis {
-    width: 25%;
+    grid-area: sturg;
+    display: block;
+    margin: auto auto;
+}
+#kennesaw {
+    grid-area: rdtrp;
+    display: block;
+    margin: auto auto;
+}
+#backHome {
+    grid-area: bakhm;
     display: block;
     margin: auto auto;
 }
 #livi {
-    width: 25%;
+    grid-area: livia;
     display: block;
     margin: auto auto;
 }
 footer {
+    margin-top: 12%;
     clear: both;
    text-align: center;
 }
 
 @media only screen and (max-width: 630px) {
+    #nav_menu ul {
+        flex-direction: column;
+    }
     #nav_menu ul li {
-        float: none;
+
         width: 100%;
     }
 }
