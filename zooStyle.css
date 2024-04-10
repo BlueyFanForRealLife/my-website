@@ -62,8 +62,8 @@ section {
 }
 
 #zoos img {
-    width: 75%;
-    min-width: 50%;
+    width: 100%;
+    min-width: 75%;
     clear: both;
     display: block;
     margin: auto auto;
