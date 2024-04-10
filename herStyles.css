@@ -3,64 +3,37 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: "Patrick Hand SC", cursive;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    font-size: x-large;
+    font-family: cursive;
+    
 }
-
-/********************Navigation ********************/
 #nav_menu ul {
     grid-area: navi;
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    padding: 1em;
-    justify-content: space-around;
-}
-
-#nav_menu li {
-    grid-area: navi;
-    font-size: x-large;
-    background: none;
-    width: 25%;
-    text-align: center;
-    background-color: #bc5d70;
-    border-radius: 8px;
-}
-
-#nav_menu ul li a {
-    padding: 2em 1em;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-/******************* Body*****************/
-p {
-    font-size: larger;
+    padding: 2%;
     margin: 2%;
-}
-
-h1 {
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-    color: #bc5d70;
-}
-
-h2 {
     font-size: x-large;
-    color: #800080;
-    border-bottom-style: dashed;
-    border-color: black;
+    width: 90%;
+    justify-content: space-between;
 }
-
-h3 {
-    font-size: large;
+body {
+    text-align: center;
+    h1 {
+        font-size: xx-large;
+        text-align: center;
+        color: rgb(188, 93, 112);
+    }
+    h2 {
+        font-size: x-large;
+        color: purple;
+        border-bottom-style:dashed;
+        border-color: black;
+    }
+    h3 {
+        font-size: medium;
+    }    
 }
-
 ul {
     display: flex;
     flex-direction: column;

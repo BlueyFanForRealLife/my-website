@@ -1,5 +1,6 @@
 html {
     background-image: url(pictures-of-people/prettySparkles.jpg);
+    background-image: url(pictures-of-people/prettySparkles.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -27,16 +28,22 @@ ul {
     list-style-type: none;
     padding: 1em;
     justify-content: space-around;
+    justify-content: space-around;
 }
 
+
 li {
+    font-size: larger;
     font-size: larger;
     background: none;
     width: 25%;
     text-align: center;
     background-color: #054149;
     border-radius: 8px;
+    background-color: #054149;
+    border-radius: 8px;
 }
+
 
 ul ul {
     display: none;
@@ -48,14 +55,25 @@ ul li a {
     color: white;
     font-weight: bold;
 }
+ul li a {
+    padding: 2em 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 
 section {
     font-family: cursive;
     color: #a52a2a;
 
+    color: #a52a2a;
+
 }
 
+
 #zoos {
+    color: black;
+    text-align: center;
     color: black;
     text-align: center;
     width: 40%;
@@ -71,6 +89,16 @@ section {
     display: block;
     margin: auto auto;
 
+#zoos img {
+    width: 100%;
+    min-width: 75%;
+    clear: both;
+    display: block;
+    margin: auto auto;
+
+}
+
+#Trip {
 }
 
 #Trip {
@@ -91,17 +119,36 @@ section {
 }
 
 /***************** Footer **************/
+    color: black;
+}
+
+#Trip img {
+    width: 100%;
+    min-width: 75%;
+    display: block;
+    margin: auto auto;
+
+}
+
+/***************** Footer **************/
 footer {
     clear: both;
     text-align: center;
+    text-align: center;
 }
+
 
 @media only screen and (max-width: 630px) {
     #nav_menu ul {
         flex-direction: column;
     }
 
+    #nav_menu ul {
+        flex-direction: column;
+    }
+
     #nav_menu ul li {
+
 
         width: 100%;
     }

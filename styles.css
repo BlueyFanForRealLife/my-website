@@ -48,9 +48,12 @@ ul {
     list-style-type: none;
     padding: 1em;
     justify-content: space-between;
+    justify-content: space-between;
 }
 
+
 li {
+    font-size: large;
     font-size: large;
     background: none;
     width: 25%;
@@ -70,17 +73,24 @@ ul li a {
 
 /****************** Footer ************/
 footer {
-
     clear: both;
-
+    background-color: #8a2be2;
+    border-radius: 8px;
 }
+
+
 
 @media only screen and (max-width: 630px) {
     #nav_menu ul {
         flex-direction: column;
     }
 
+    #nav_menu ul {
+        flex-direction: column;
+    }
+
     #nav_menu ul li {
+
 
         width: 100%;
     }
