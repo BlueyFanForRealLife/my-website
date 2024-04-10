@@ -3,7 +3,10 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: cursive;
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 h1 {
     text-align: center;

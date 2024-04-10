@@ -4,7 +4,10 @@ html {
     background-position: center;
     background-size: cover;
     text-align: center;
-    font-family: cursive;
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 
 #body_ul {
