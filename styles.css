@@ -10,37 +10,20 @@ html {
     text-align: center;
 }
 
-#body_ul {
-    color: rgb(54, 25, 16);
-    font-family: cursive;
-}
 #photos {
     width: 100%;
     min-width: 15%;
     display: block;
     margin: auto auto;
 }
-#mainline {
-    font-size: large;
-
-}
 
 /********************* Header ****************/
-#header h1 {
+h1 {
     color: #8a2be2;
     font-size: 3em;
 
+
 }
-
-#header p {
-    font-size: x-large;
-    padding-top: 2%;
-    clear: both;
-}
-
-/*********************** Main *************************/
-
-
 /******************** Navigation *********************/
 ul {
     display: flex;
@@ -48,13 +31,11 @@ ul {
     list-style-type: none;
     padding: 1em;
     justify-content: space-between;
-    justify-content: space-between;
 }
 
 
 li {
-    font-size: large;
-    font-size: large;
+    font-size: 1.5em;
     background: none;
     width: 25%;
     text-align: center;
@@ -67,15 +48,22 @@ ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+a:hover {
+    font-size: .9em;
+}
 
-
+/*********************** Main *************************/
+p {
+    font-size: 2em;
 }
 
 /****************** Footer ************/
 footer {
+    font-size: .6em;
+    margin-top: 15%;
     clear: both;
-    background-color: #8a2be2;
-    border-radius: 8px;
+    text-align: center;
 }
 
 
@@ -85,13 +73,7 @@ footer {
         flex-direction: column;
     }
 
-    #nav_menu ul {
-        flex-direction: column;
-    }
-
     #nav_menu ul li {
-
-
         width: 100%;
     }
 }
