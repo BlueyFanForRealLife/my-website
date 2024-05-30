@@ -52,12 +52,23 @@ h2 {
 
 ul {
     font-size: 1.5em;
-    display:flex;
-    flex-direction: column;
     list-style-type: none;
 }
 a:hover {
     font-size: .9em;
+}
+table {
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    border: 3px solid;
+    border-color: purple;
+    border-collapse: collapse;
+}
+th, td {
+    border: 3px solid;
+    border-color: purple;
+    padding: .2em .7em;
 }
 
 /****************** Footer*************/
