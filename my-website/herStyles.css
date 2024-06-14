@@ -1,0 +1,90 @@
+html {
+    background-image: url(pictures-of-people/transparent.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+/********* Navigation ************/
+#nav_menu ul {
+    grid-area: navi;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+#nav_menu li {
+    grid-area: navi;
+    font-size: 1em;
+    background: none;
+    width: 30%;
+    text-align: center;
+    background-color: #bc5d70;
+   border-radius: 5px;
+}
+#nav_menu ul li a {
+    padding: 2em 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/**************** Body******************/
+p {
+   font-size: 1.5em;
+   margin: 2%;
+ }
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    color: rgb(188, 93, 112);
+ }  
+h2 {
+    font-size: 2em;
+    color: purple;
+    border-bottom-style:dashed;
+    border-color: black;
+    }
+
+ul {
+    font-size: 1.5em;
+    list-style-type: none;
+}
+a:hover {
+    font-size: .9em;
+}
+table {
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    border: 3px solid;
+    border-color: purple;
+    border-collapse: collapse;
+}
+th, td {
+    border: 3px solid;
+    border-color: purple;
+    padding: .2em .7em;
+}
+
+/****************** Footer*************/
+footer {
+    clear: both;
+    text-align: center;
+    font-size: .8em;
+}
+
+@media only screen and (max-width: 630px) {
+    #nav_menu Ul {
+        flex-direction: column;
+    }
+
+    #nav_menu ul li {
+
+        width: 100%;
+    }
+}

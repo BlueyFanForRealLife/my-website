@@ -1,0 +1,124 @@
+html {
+    background-image: url(pictures-of-people/blueGradient.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/************ Navigation *******************/
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 1em;
+    justify-content: space-around;
+}
+
+
+li {
+    font-size: 1.5em;
+    background: none;
+    width: 25%;
+    text-align: center;
+    background-color: #0a769a;
+    border-radius: 8px;
+}
+
+ul ul {
+    display: none;
+}
+
+ul li a {
+    padding: 2em 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    font-size: .9em;
+}
+/************ Body *******************/
+h1 {
+    text-align: center;
+    color: #0a769a;
+    font-weight: bolder;
+    font-size: 3em;
+}
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    font-size: 1.6em;
+    color: #0a769a;
+    font-weight: bolder;
+}
+
+section {
+    font-size: 1.2em;
+    color: #a52a2a;
+
+}
+
+
+#zoos {
+    color: black;
+    text-align: center;
+    width: 40%;
+    float: left;
+    padding: 2em 1em 2em 0;
+    margin-left: 5%;
+}
+
+#zoos img {
+    width: 100%;
+    min-width: 75%;
+    clear: both;
+    display: block;
+    margin: auto auto;
+
+}
+
+#Trip {
+    width: 40%;
+    float: right;
+    padding: 2em 1em 2em 0;
+    margin-right: 5%;
+    text-align: center;
+    color: black;
+}
+
+#Trip img {
+    width: 100%;
+    min-width: 75%;
+    display: block;
+    margin: auto auto;
+
+}
+
+/***************** Footer **************/
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+@media only screen and (max-width: 630px) {
+    #nav_menu ul {
+        flex-direction: column;
+    }
+
+    #nav_menu ul li {
+
+        width: 100%;
+    }
+}

@@ -1,0 +1,122 @@
+html {
+    background-image: url(pictures-of-people/bluetopink.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+
+/******************** Navigation **************/
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 1em;
+    justify-content: space-around;
+}
+li {
+    font-size: larger;
+    background: none;
+    width: 25%;
+    text-align: center;
+    background-color: #6475af;
+    border-radius: 8px;
+}
+
+ul ul {
+    display: none;
+}
+
+ul li a {
+    padding: 2em 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;  
+}
+a:hover {
+    font-size: .9em;
+}
+
+/********* Body *************/
+main {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: 
+        "befor  datng   datng"
+        "preggr preggr  ultra"
+        "sturg  rdtrp   rdtrp"
+        "bakhm  bakhm   livia";
+    grid-gap: 3%;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #536293;
+    font-weight: bolder;
+}
+p {
+    font-size: 1.4em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#before {
+    grid-area: befor;
+    display: block;
+    margin: auto auto;
+}
+#dating {
+    grid-area: datng;
+    display: block;
+    margin: auto auto;
+}
+#ultrasound {
+    grid-area: ultra;
+    display: block;
+    margin: auto auto;
+}
+#driving {
+    grid-area: preggr;
+    display: block;
+    margin: auto auto;
+}
+#sturgis {
+    grid-area: sturg;
+    display: block;
+    margin: auto auto;
+}
+#kennesaw {
+    grid-area: rdtrp;
+    display: block;
+    margin: auto auto;
+}
+#backHome {
+    grid-area: bakhm;
+    display: block;
+    margin: auto auto;
+}
+#livi {
+    grid-area: livia;
+    display: block;
+    margin: auto auto;
+}
+footer {
+    margin-top: 15%;
+    clear: both;
+   text-align: center;
+}
+
+@media only screen and (max-width: 630px) {
+    #nav_menu ul {
+        flex-direction: column;
+    }
+
+    #nav_menu ul li {
+
+        width: 100%;
+    }
+}
